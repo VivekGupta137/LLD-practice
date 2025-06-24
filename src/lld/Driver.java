@@ -1,5 +1,5 @@
 package lld;
 
 public interface Driver {
-    public void start();
+    public void start() throws InterruptedException;
 }
